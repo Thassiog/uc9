@@ -1,18 +1,13 @@
-programa 
+programa
 {
-	//Faça um programa que calcule a soma dos
-	//números de 1 a 100
-	
-	funcao inicio() 
+	//Faça um programa que imprima os números
+	//pares de 0 até 100
+	funcao inicio()
 	{
-		inteiro resultado, contador
-		
-
-		para (contador = 1; contador<100; contador++) 
-		{
-			resultado = 1 + contador 
-			escreva (1,"+", contador, " = ", resultado , "\n")
-		}
+	para(inteiro i = 0; i<=100; i = i + 2)
+	{ 
+	escreva(i, "\n")
+	}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +15,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 164; 
+ * @POSICAO-CURSOR = 172; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,17 +1,22 @@
 programa 
 {
-	//Faça um programa que calcule a soma dos
-	//números de 1 a 100
+	//Faça um programa que imprima a tabuada de um
+	//número inserido pelo usuário.
+
 	
 	funcao inicio() 
 	{
-		inteiro resultado, contador
+		inteiro numero, resultado, contador
 		
+		escreva("Informe um número para ver sua tabuada: ")
+		leia(numero)
 
-		para (contador = 1; contador<100; contador++) 
+		limpa()
+		
+		para (contador = 1; contador <= 10; contador++) 
 		{
-			resultado = 1 + contador 
-			escreva (1,"+", contador, " = ", resultado , "\n")
+			resultado = numero * contador 
+			escreva (numero, " X ", contador, " = ", resultado , "\n")
 		}
 	}
 }
@@ -20,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 164; 
+ * @POSICAO-CURSOR = 93; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
