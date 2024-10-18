@@ -1,17 +1,22 @@
 programa
 {
+	//Faça um programa que solicite um número inteiro
+	//positivo e calcule o seu fatorial.
 	
 	funcao inicio()
 	{
-		inteiro num, soma = 0
-
-		enquanto(soma < 100)
+		inteiro numero, atual = 1, fatorial = 1
+		
+		escreva("Digite um numero: ")
+		leia(numero)
+		
+		enquanto (atual <= numero) 
 		{
-			escreva("digite um número: ")
-			leia(num)
-			soma = soma + num
-			escreva("soma atual: ", soma,"\n") 
+			fatorial = fatorial * atual 
+			atual = atual + 1
 		}
+		
+		escreva("O fatorial de ", numero, " é: ", fatorial, "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 193; 
+ * @POSICAO-CURSOR = 101; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

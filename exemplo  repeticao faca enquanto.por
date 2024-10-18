@@ -3,15 +3,17 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num, soma = 0
-
-		enquanto(soma < 100)
+		inteiro x, y
+		x = 0
+		y = 4
+		faca
 		{
-			escreva("digite um número: ")
-			leia(num)
-			soma = soma + num
-			escreva("soma atual: ", soma,"\n") 
+			y = y + 2
+			x = x + 1
+			escreva (x, "-", y, "\n")
 		}
+		enquanto (x < 2)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 193; 
+ * @POSICAO-CURSOR = 160; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
