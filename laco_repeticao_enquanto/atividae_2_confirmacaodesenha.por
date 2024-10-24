@@ -1,6 +1,6 @@
 programa
 {
-	//Faça um programa que solicite ao usuário uma
+	//Faça um programa que solicite ao usuário uma
 	//senha e repita a solicitação até que a senha
 	//seja digitada corretamente.
 	//Crie a senha que você quiser!
@@ -21,7 +21,7 @@ programa
 		contador = contador + 1
 	 }
 		enquanto(senha2 != senha1)
-		escreva("\nfinalizado")
+		escreva("\n", "finalizado")
 	 
 	
 	}
@@ -32,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 295; 
+ * @POSICAO-CURSOR = 480; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,17 +1,20 @@
 programa
 {
 	
-	funcao inicio()
+	funcao inicio() 
 	{
-	 	real valor1, valor2, resposta
-	 	escreva("digite o valor 1: ")
-	 	leia(valor1)	
- 
-	 	escreva("digite o valor 2: ")
-	 	leia(valor2)
- 
-	 	resposta = valor1 * valor2
-	 	escreva(resposta)
+		inteiro vetor[9]
+		real valor
+			escreva("digite o valor ")
+		 		leia(valor)
+		para (inteiro posicao = 0; posicao < 9; posicao++)
+		{
+			escreva("digite o valor ")
+			leia(valor)
+		}
+
+		escreva ("\n", "hoje seu almoço é por conta da casa!!!")
+
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 224; 
+ * @POSICAO-CURSOR = 282; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
